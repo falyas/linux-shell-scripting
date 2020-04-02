@@ -176,11 +176,13 @@ There are other ways to add, modify, display, and delete files, but the options 
 
 Use the `cd` command to jump from one directory to another.
 
-You can go into a sub-directly by either of the following commands. The below commands assume that you have the _fruits_ directory at your current location.
+You can go into a sub-directly the following commands. The below commands assume that you have the _fruits_ directory at your current location.
 
 ```sh
 cd ~/fruits
 ```
+
+or
 
 ```sh
 cd fruits
@@ -375,9 +377,7 @@ You can print colored text and colored backgrounds, by using the `-e` flag and t
 
 The tables below list the common text and background color codes:
 
-Text codes
-
-| | |
+| Text color | Code |
 | :--- | :---|
 | Black | 30 |
 | Red | 31 |
@@ -396,9 +396,7 @@ echo -e "\e[1;31m red text e[0m"
 
 You can use the same command above to change the background color.
 
-Background codes
-
-| | |
+| Background color | Code |
 | :--- | :---|
 | Black | 40 |
 | Red | 41 |
@@ -411,9 +409,7 @@ Background codes
 
 There are also codes to customize the style of the printed text. The table below describes the most common text styles.
 
-Style codes
-
-| | |
+| Text style | code |
 | :--- | :---|
 | Bold | 1 |
 | Dim | 2 |
@@ -424,14 +420,14 @@ Style codes
 
 The are several reset codes to undo the color and style of text.
 
-| | | |
-| :--- | :---| :--- |
-| Reset | 0 | removes all modifiers for both the foreground and background attributes |
-| Reset | 21 | removes bold |
-| Reset | 22 | removes dim |
-| Reset | 24 | removes underline |
-| Reset | 25 | removes blink |
-| Reset | 27 | removes reverse |
+| Reset code | Description |
+| :---| :--- |
+| 0 | Removes all modifiers for both the foreground and background attributes |
+| 21 | Removes bold |
+| 22 | Removes dim |
+| 24 | Removes underline |
+| 25 | Removes blink |
+| 27 | Removes reverse |
 
 The general command line format is below. It sets the style, foreground, and the background at once.
 
@@ -457,7 +453,7 @@ echo ""
 
 The above code iterates through all possible combinations of the text color, background color, and text style codes. It prints the output of each combination, and the results are shown in the image below.
 
-![![Shades](./media/shades.png)](./media/shades.png)
+![![Shades](./media/shades.jpg)](./media/shades.jpg)
 
 ## Next steps
 
