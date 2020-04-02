@@ -453,7 +453,7 @@ echo ""
 
 The above code iterates through all possible combinations of the text color, background color, and text style codes. It prints the output of each combination, and the results are shown in the image below.
 
-![![Shades](./media/shades.jpg)](./media/shades.jpg)
+![Shades](./media/shades.jpg)]
 
 ## Next steps
 
