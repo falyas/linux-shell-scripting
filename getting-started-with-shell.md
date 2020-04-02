@@ -1,4 +1,4 @@
-# Shell scripting basics!
+# Getting started with the Linux shell
 
 Shell is also known as the command-line interface. It provides a way for the computer user to interact with the operating system. In this article, we'll overview the basics of the Linux shell, which will give you a robust starting point to use your own Linux machine.
 
