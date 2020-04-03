@@ -416,7 +416,6 @@ There are also codes to customize the style of the printed text. The table below
 | Underlined | 4 |
 | Blink | 5 |
 | Reverse | 7 |
-|
 
 The are several reset codes to undo the color and style of text.
 
